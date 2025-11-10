@@ -37,15 +37,14 @@ export default function Home() {
     <main className="max-w-[1060px] w-full mx-auto">
       <div className="flex flex-col items-center justify-center h-[500px] sm:h-[480px] gap-2">
         <h1 className="text-[45px] font-bold text-center">
-          O futuro da{' '}
+          The Future Of {' '}
           <span className="gradient-text text-transparent animate-gradient">
-            distribuição
+            Distribution
           </span>
         </h1>
 
         <p className="max-w-[675px] w-full text-center text-[18px] leading-7 pb-10 md:pb-2 z-10">
-          A Bewave facilita a conexão entre artistas e as principais plataformas
-          digitais, oferecendo distribuição global e suporte especializado
+The Audience Economy facilitates the connection between artists and major digital platforms, offering global distribution and specialized support.
         </p>
 
         <CTAButton />

@@ -14,21 +14,21 @@ import Image from 'next/image'
 const infoCards: CardsProps[] = [
   {
     icon: <AiOutlinePercentage size={42} color="#F5F5F5" />,
-    title: 'Lower Fees, Higher Earnings',
+    title: 'Lower Percentage, Higher Earnings',
     description:
-      'Cutting costs is the first step to increasing your earnings. Take advantage of our competitive commission, high-quality services, and deep knowledge of the digital market to expand your content globally.',
+      'Cutting costs is the first step to increasing your earnings. Enjoy our competitive commission, high-quality services, and deep knowledge of the digital market to expand your digital content.',
   },
   {
     icon: <LuUser size={42} color="#F5F5F5" />,
     title: 'Dedicated Support',
     description:
-      'Our support team will help you every step of the way. We are committed to solving any issue or question that may arise, ensuring you have all the support you need for your success.',
+      'Our support will assist you every step of the way. We are committed to resolving any issues or questions that may arise, ensuring you have the support needed for success.',
   },
   {
     icon: <HiOutlineLightningBolt size={42} color="#F5F5F5" />,
     title: 'Faster Approval Time',
     description:
-      'Get your content into stores quickly, taking advantage of new promotion and production opportunities. Our team is dedicated to approving your content in less than 24 hours.',
+      'Get your content to stores quickly, taking advantage of new promotion and production opportunities. Our team is dedicated to approving your content in less than 24 hours.',
   },
 ]
 
@@ -44,8 +44,8 @@ export default function Home() {
         </h1>
 
         <p className="max-w-[675px] w-full text-center text-[18px] leading-7 pb-10 md:pb-2 z-10">
-          The audience economy facilitates the connection between artists and major digital
-          platforms, offering global distribution and specialized support.
+          The Audience Economy facilitates the connection between artists and
+          major digital platforms, offering global distribution and specialized support
         </p>
 
         <CTAButton />
@@ -70,17 +70,10 @@ export default function Home() {
         <div className="bg-marfin text-black rounded-3xl p-8 flex flex-col md:flex-row items-center justify-center gap:6 md:justify-between md:gap-10">
           <div className="flex flex-col gap-2 max-w-[915px]">
             <h3 className="text-[18px] font-madefor-display font-bold text-black">
-              Label? Explore All the Benefits for Your Artists
+              Label? Explore All Benefits for Your Artists
             </h3>
             <p className="text-[15px]">
-              Bringing your catalog to Bewave offers countless benefits. Take
-              advantage of our competitive commission, high-quality services,
-              and deep understanding of the digital market to expand your reach
-              globally. Our platform ensures better earnings, faster approvals,
-              and dedicated support to make sure your artists have everything
-              they need at every stage. Click on &quot;Join Us&quot; and
-              discover everything audience economy can do to take your artists to the next
-              level.
+              Bringing your catalog to The Audience Economy offers countless benefits. Enjoy our competitive commission, high-quality services, and deep knowledge of the digital market to expand your reach globally. Our platform ensures better earnings, faster approval times, and dedicated support so your artists get the assistance they need every step of the way. Click &quot;Join Us&quot; and discover everything The Audience Economy can do to take your artists to the next level.
             </p>
           </div>
 
@@ -99,16 +92,10 @@ export default function Home() {
             Distribute Globally
           </h2>
           <h3 className="text-beige text-2xl font-madefor-display font-bold mb-4">
-            We deliver your content to more than 75 stores worldwide
+            We send your content to over 75 stores worldwide
           </h3>
           <p className="text-[15px] leading-7">
-            The audience economy partners with the leading music distribution platforms around
-            the world, including Spotify, YouTube, Deezer, and many others. We
-            offer numerous advantages to maximize the visibility of your
-            content. Our platform ensures a strong and efficient relationship
-            with all stores, allowing fast and reliable deliveries. With Bewave,
-            you’ll enjoy a superior experience, dedicated support, and access to
-            a vast global network.
+            The Audience Economy partners with the main global music distribution platforms, including Spotify, YouTube, Deezer, and many more. We offer multiple advantages to maximize your content’s visibility. Our platform ensures fast, efficient deliveries and strong relationships with all stores, providing superior experience, dedicated support, and access to a wide global network.
           </p>
         </div>
 
@@ -127,7 +114,7 @@ export default function Home() {
           <div className="w-[calc(100%-2px)] h-[calc(100%-2px)] z-20 relative rounded-2xl overflow-hidden bg-[#111]">
             <Image
               src="/images/dark-background.png"
-              alt="Image with a black background and a metallic blue gradient"
+              alt="Image with a black background and blue metallic gradient"
               className="object-scale-down"
               objectFit="cover"
               quality={100}
@@ -141,16 +128,10 @@ export default function Home() {
             Stay Updated
           </h2>
           <h3 className="text-purple text-2xl font-madefor-display font-bold mb-4">
-            Simple and Intuitive Dashboard
+            Simple and intuitive dashboard
           </h3>
           <p className="text-[15px] leading-7">
-            The audience economy was developed to simplify and focus on what truly matters for
-            our clients. Every step, from uploading your first track to
-            distribution in stores, comes with interactive and real-time
-            tutorials. We don’t display unnecessary or cluttered information on
-            your dashboard, always ensuring 24/7 uptime. We provide update
-            alerts and partnership programs available on our Marketplace,
-            accessible directly from your dashboard.
+            The Audience Economy is designed to simplify and focus on what truly matters for our clients. Every step, from uploading your first track to distributing it to stores, comes with interactive real-time tutorials. We don’t clutter your dashboard with unnecessary info, ensuring 24/7 uptime. Get update alerts and partnership programs directly through your dashboard.
           </p>
         </div>
       </section>
@@ -158,16 +139,13 @@ export default function Home() {
       <section className="w-full flex flex-col lgp:flex-row items-center justify-center lgp:justify-between gap-12 lgp:gap-20 py-[120px]">
         <div className="flex flex-col gap-3 lgp:max-w-[480px] w-full">
           <h2 className="text-white text-[28px] font-madefor-display font-bold">
-            Turn 15 Days Into 1
+            Turn 15 Days into 1
           </h2>
           <h3 className="text-blue text-2xl font-madefor-display font-bold mb-4">
-            We Value Efficiency
+            We value efficiency
           </h3>
           <p className="text-[15px] leading-7 mb-5">
-            Say goodbye to the standard distribution process. With audience economy, you
-            can license your content in just a few hours without worrying about
-            the long approval times other distributors require. License your
-            content and see it available in selected stores the same day.
+            Say goodbye to the standard distribution process. With The Audience Economy, you can license your content in hours without worrying about long approval times other distributors require. License your content and have it available in selected stores the same day.
           </p>
 
           <div className="w-full flex items-center gap-10 sm:gap-28">
@@ -188,7 +166,7 @@ export default function Home() {
                 </p>
                 <span>B+</span>
               </div>
-              <p>Streams</p>
+              <p>Streaming Platforms</p>
             </div>
           </div>
         </div>
@@ -199,7 +177,7 @@ export default function Home() {
               <p>Standard Distribution</p>
               <span>10 days</span>
             </div>
-            Other Distributors
+            Other distributors
             <div className="flex items-center mt-6 gap-3">
               <div className="pl-2 flex flex-col items-center justify-center">
                 <Circle />
@@ -213,7 +191,7 @@ export default function Home() {
                   <DistributionCards name="Approval" />
                   <span>3 days</span>
 
-                  <DistributionCards name="Upload" />
+                  <DistributionCards name="Submission" />
                   <span>7 days</span>
 
                   <DistributionCards name="Available in Stores" />
@@ -227,7 +205,7 @@ export default function Home() {
               <p>Future of Distribution</p>
               <span>1 day</span>
             </div>
-            Bewave
+            The Audience Economy
             <div className="flex items-center mt-6 gap-3">
               <div className="pl-2 flex flex-col items-center justify-center">
                 <Circle />
@@ -241,7 +219,7 @@ export default function Home() {
                   <DistributionCards name="Approval" />
                   <span>120 minutes</span>
 
-                  <DistributionCards name="Upload" />
+                  <DistributionCards name="Submission" />
                   <span>1 day</span>
 
                   <DistributionCards name="Available in Stores*" />

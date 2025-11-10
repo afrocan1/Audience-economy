@@ -14,21 +14,21 @@ import Image from 'next/image'
 const infoCards: CardsProps[] = [
   {
     icon: <AiOutlinePercentage size={42} color="#F5F5F5" />,
-    title: 'Menor Porcentagem, Melhores Ganhos',
+    title: 'Lower Fees, Higher Earnings',
     description:
-      'Cortar custos é o primeiro passo para aumentar seus ganhos. Aproveite nossa comissão competitiva, serviços de alta qualidade e profundo conhecimento do mercado digital para expandir seu conteúdo digitalmente',
+      'Cutting costs is the first step to increasing your earnings. Take advantage of our competitive commission, high-quality services, and deep knowledge of the digital market to expand your content globally.',
   },
   {
     icon: <LuUser size={42} color="#F5F5F5" />,
-    title: 'Suporte Dedicado',
+    title: 'Dedicated Support',
     description:
-      'Nosso suporte te ajudará em cada etapa do caminho. Estamos comprometidos em resolver qualquer problema ou dúvida que possa surgir, garantindo que você tenha o apoio necessário para seu sucesso',
+      'Our support team will help you every step of the way. We are committed to solving any issue or question that may arise, ensuring you have all the support you need for your success.',
   },
   {
     icon: <HiOutlineLightningBolt size={42} color="#F5F5F5" />,
-    title: 'Menor Tempo de Aprovação',
+    title: 'Faster Approval Time',
     description:
-      'Coloque seus conteúdos nas lojas rapidamente, aproveitando novas oportunidades de divulgação e produção. Nossa equipe está dedicada a aprovar seu conteúdo em menos de 24 horas',
+      'Get your content into stores quickly, taking advantage of new promotion and production opportunities. Our team is dedicated to approving your content in less than 24 hours.',
   },
 ]
 
@@ -37,17 +37,16 @@ export default function Home() {
     <main className="max-w-[1060px] w-full mx-auto">
       <div className="flex flex-col items-center justify-center h-[500px] sm:h-[480px] gap-2">
         <h1 className="text-[45px] font-bold text-center">
-          The Future Of{' '}
+          The future of{' '}
           <span className="gradient-text text-transparent animate-gradient">
-            Distribution
+            distribution
           </span>
         </h1>
 
         <p className="max-w-[675px] w-full text-center text-[18px] leading-7 pb-10 md:pb-2 z-10">
-  The Audience Economy facilitates the connection between artists and
-  major digital platforms, offering global distribution and specialized
-  support.
-</p>
+          Bewave facilitates the connection between artists and major digital
+          platforms, offering global distribution and specialized support.
+        </p>
 
         <CTAButton />
       </div>
@@ -71,17 +70,17 @@ export default function Home() {
         <div className="bg-marfin text-black rounded-3xl p-8 flex flex-col md:flex-row items-center justify-center gap:6 md:justify-between md:gap-10">
           <div className="flex flex-col gap-2 max-w-[915px]">
             <h3 className="text-[18px] font-madefor-display font-bold text-black">
-              Label? Explore Todos os Benefícios para Seus Artistas
+              Label? Explore All the Benefits for Your Artists
             </h3>
             <p className="text-[15px]">
-              Trazer seu catálogo para a Bewave oferece inúmeros benefícios.
-              Aproveite nossa comissão competitiva, serviços de alta qualidade e
-              profundo conhecimento do mercado digital para expandir seu alcance
-              globalmente. Nossa plataforma proporciona ganhos melhores, menor
-              tempo de aprovação e um suporte dedicado para garantir que seus
-              artistas recebem o apoio necessário em cada etapa do caminho.
-              Clique em &quot;Venha fazer parte&quot; e descubra tudo que a
-              Bewave pode fazer para levar seus artistas ao próximo nível
+              Bringing your catalog to Bewave offers countless benefits. Take
+              advantage of our competitive commission, high-quality services,
+              and deep understanding of the digital market to expand your reach
+              globally. Our platform ensures better earnings, faster approvals,
+              and dedicated support to make sure your artists have everything
+              they need at every stage. Click on &quot;Join Us&quot; and
+              discover everything Bewave can do to take your artists to the next
+              level.
             </p>
           </div>
 
@@ -97,19 +96,19 @@ export default function Home() {
       >
         <div className="flex flex-col gap-3 lgp:max-w-[480px] w-full">
           <h2 className="text-white text-[28px] font-madefor-display font-bold">
-            Distribua Globalmente
+            Distribute Globally
           </h2>
           <h3 className="text-beige text-2xl font-madefor-display font-bold mb-4">
-            Enviamos seu conteúdo para mais de 75 lojas ao redor do mundo
+            We deliver your content to more than 75 stores worldwide
           </h3>
           <p className="text-[15px] leading-7">
-            A Bewave é parceira das principais plataformas de distribuição
-            musical no mundo, incluindo Spotify, YouTube, Deezer e muitas
-            outras. Oferecemos diversas vantagens para maximizar a visibilidade
-            do seu conteúdo. Nossa plataforma garante uma relação sólida e ágil
-            com todas as lojas, permitindo entregas rápidas e eficientes. Com a
-            Bewave, você terá uma experiência superior, com suporte dedicado e
-            acesso a uma ampla rede global.
+            Bewave partners with the leading music distribution platforms around
+            the world, including Spotify, YouTube, Deezer, and many others. We
+            offer numerous advantages to maximize the visibility of your
+            content. Our platform ensures a strong and efficient relationship
+            with all stores, allowing fast and reliable deliveries. With Bewave,
+            you’ll enjoy a superior experience, dedicated support, and access to
+            a vast global network.
           </p>
         </div>
 
@@ -128,7 +127,7 @@ export default function Home() {
           <div className="w-[calc(100%-2px)] h-[calc(100%-2px)] z-20 relative rounded-2xl overflow-hidden bg-[#111]">
             <Image
               src="/images/dark-background.png"
-              alt="Imagem com um fundo preto e um gradiente de azul com tons metálicos"
+              alt="Image with a black background and a metallic blue gradient"
               className="object-scale-down"
               objectFit="cover"
               quality={100}
@@ -139,20 +138,19 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-3 lgp:max-w-[480px] w-full">
           <h2 className="text-white text-[28px] font-madefor-display font-bold">
-            Esteja Atualizado
+            Stay Updated
           </h2>
           <h3 className="text-purple text-2xl font-madefor-display font-bold mb-4">
-            Dashboard simples e intuitiva
+            Simple and Intuitive Dashboard
           </h3>
           <p className="text-[15px] leading-7">
-            A Bewave foi desenvolvida para simplificar e focar no que realmente
-            importa para nossos clientes. Cada etapa, desde o upload da sua
-            primeira faixa até a distribuição nas lojas, conta com tutoriais
-            interativos e em tempo real. Não exibimos informações desnecessárias
-            e poluentes em sua dashboard, garantindo sempre um uptime de 24/7.
-            Oferecemos alertas de atualizações e programas de parcerias
-            disponíveis em nosso Marketplace, acessíveis diretamente na sua
-            dashboard.
+            Bewave was developed to simplify and focus on what truly matters for
+            our clients. Every step, from uploading your first track to
+            distribution in stores, comes with interactive and real-time
+            tutorials. We don’t display unnecessary or cluttered information on
+            your dashboard, always ensuring 24/7 uptime. We provide update
+            alerts and partnership programs available on our Marketplace,
+            accessible directly from your dashboard.
           </p>
         </div>
       </section>
@@ -160,17 +158,16 @@ export default function Home() {
       <section className="w-full flex flex-col lgp:flex-row items-center justify-center lgp:justify-between gap-12 lgp:gap-20 py-[120px]">
         <div className="flex flex-col gap-3 lgp:max-w-[480px] w-full">
           <h2 className="text-white text-[28px] font-madefor-display font-bold">
-            Transforme 15 dias em 1
+            Turn 15 Days Into 1
           </h2>
           <h3 className="text-blue text-2xl font-madefor-display font-bold mb-4">
-            Prezamos pela eficiência
+            We Value Efficiency
           </h3>
           <p className="text-[15px] leading-7 mb-5">
-            Diga adeus ao processo padrão de distribuição. Com a Bewave, você
-            pode licenciar seu conteúdo em questão de horas, sem precisar se
-            preocupar com os longos dias de aprovação que outras distribuidoras
-            exigem. Licencie seu conteúdo e veja-o disponível nas lojas
-            selecionadas no mesmo dia.
+            Say goodbye to the standard distribution process. With Bewave, you
+            can license your content in just a few hours without worrying about
+            the long approval times other distributors require. License your
+            content and see it available in selected stores the same day.
           </p>
 
           <div className="w-full flex items-center gap-10 sm:gap-28">
@@ -181,7 +178,7 @@ export default function Home() {
                 </p>
                 <span>+</span>
               </div>
-              <p>Países</p>
+              <p>Countries</p>
             </div>
 
             <div className="flex flex-col gap-2 text-white font-madefor-display font-bold text-2xl">
@@ -191,7 +188,7 @@ export default function Home() {
                 </p>
                 <span>B+</span>
               </div>
-              <p>Streamings</p>
+              <p>Streams</p>
             </div>
           </div>
         </div>
@@ -199,10 +196,10 @@ export default function Home() {
         <div className="flex items-center justify-center flex-grow w-full lgp:justify-between gap-8 lgp:gap-0 flex-wrap lgp:w-auto">
           <div className="max-w-[240px] w-full border border-[#333] rounded-xl text-[13px] p-3">
             <div className="flex items-center justify-between mb-3">
-              <p>Distribuição padrão</p>
-              <span>10 dias</span>
+              <p>Standard Distribution</p>
+              <span>10 days</span>
             </div>
-            Outras distribuidoras
+            Other Distributors
             <div className="flex items-center mt-6 gap-3">
               <div className="pl-2 flex flex-col items-center justify-center">
                 <Circle />
@@ -213,13 +210,13 @@ export default function Home() {
               </div>
               <div className="flex-grow flex flex-col items-start justify-center">
                 <div className="flex flex-col items-center justify-center gap-8">
-                  <DistributionCards name="Aprovação" />
-                  <span>3 dias</span>
+                  <DistributionCards name="Approval" />
+                  <span>3 days</span>
 
-                  <DistributionCards name="Envio" />
-                  <span>7 dias</span>
+                  <DistributionCards name="Upload" />
+                  <span>7 days</span>
 
-                  <DistributionCards name="Disponível nas lojas" />
+                  <DistributionCards name="Available in Stores" />
                 </div>
               </div>
             </div>
@@ -227,8 +224,8 @@ export default function Home() {
 
           <div className="max-w-[240px] w-full border border-[#333] rounded-xl text-[13px] p-3">
             <div className="flex items-center justify-between mb-3">
-              <p>Futuro da distribuição</p>
-              <span>1 dia</span>
+              <p>Future of Distribution</p>
+              <span>1 day</span>
             </div>
             Bewave
             <div className="flex items-center mt-6 gap-3">
@@ -241,13 +238,13 @@ export default function Home() {
               </div>
               <div className="flex-grow flex flex-col items-start justify-center">
                 <div className="flex flex-col items-center justify-center gap-8">
-                  <DistributionCards name="Aprovação" />
-                  <span>120 minutos</span>
+                  <DistributionCards name="Approval" />
+                  <span>120 minutes</span>
 
-                  <DistributionCards name="Envio" />
-                  <span>1 dia</span>
+                  <DistributionCards name="Upload" />
+                  <span>1 day</span>
 
-                  <DistributionCards name="Disponível nas lojas*" />
+                  <DistributionCards name="Available in Stores*" />
                 </div>
               </div>
             </div>

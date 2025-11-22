@@ -39,11 +39,11 @@ export const metadata: Metadata = {
       url: 'https://github.com/PietroRhyan',
     },
   ],
-  applicationName: 'The audience economy',
+  applicationName: 'The Rookie Brand',
   icons: {
-    icon: './audience economy (1).png',
-    apple: './audience economy (1).png',
-    shortcut: './audience economy (1).png',
+    icon: './5e911001-b98a-47f9-bae2-d42c99144c0c_removalai_preview.png',
+    apple: './5e911001-b98a-47f9-bae2-d42c99144c0c_removalai_preview.png',
+    shortcut: './5e911001-b98a-47f9-bae2-d42c99144c0c_removalai_preview.png',
   },
 }
 

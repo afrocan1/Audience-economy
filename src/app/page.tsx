@@ -44,7 +44,7 @@ export default function Home() {
         </h1>
 
         <p className="max-w-[675px] w-full text-center text-[18px] leading-7 pb-10 md:pb-2 z-10">
-          The Audience Economy facilitates the connection between artists and
+          The Rookie Brand facilitates the connection between artists and
           major digital platforms, offering global distribution and specialized
           support.
         </p>
@@ -74,13 +74,13 @@ export default function Home() {
               Label? Explore All the Benefits for Your Artists
             </h3>
             <p className="text-[15px]">
-              Bringing your catalog to the Audience Economy offers countless
+              Bringing your catalog to The Rookie Brand offers countless
               benefits. Take advantage of our competitive commission,
               high-quality services, and deep understanding of the digital
               market to expand your reach globally. Our platform ensures better
               earnings, faster approvals, and dedicated support to make sure
               your artists have everything they need at every stage. Click on
-              &quot;Join Us&quot; and discover everything the Audience Economy
+              &quot;Join Us&quot; and discover everything The Rookie Brand
               can do to take your artists to the next level.
             </p>
           </div>
@@ -103,12 +103,12 @@ export default function Home() {
             We deliver your content to more than 75 stores worldwide
           </h3>
           <p className="text-[15px] leading-7">
-            The Audience Economy partners with the leading music distribution
+            The Rookie Brand partners with the leading music distribution
             platforms around the world, including Spotify, YouTube, Deezer, and
             many others. We offer numerous advantages to maximize the visibility
             of your content. Our platform ensures a strong and efficient
             relationship with all stores, allowing fast and reliable deliveries.
-            With the Audience Economy, you&apos;ll enjoy a superior experience,
+            With The Rookie Brand, you&apos;ll enjoy a superior experience,
             dedicated support, and access to a vast global network.
           </p>
         </div>
@@ -145,7 +145,7 @@ export default function Home() {
             Simple and Intuitive Dashboard
           </h3>
           <p className="text-[15px] leading-7">
-            The Audience Economy was developed to simplify and focus on what
+            The Rookie Brand was developed to simplify and focus on what
             truly matters for our clients. Every step, from uploading your first
             track to distribution in stores, comes with interactive and
             real-time tutorials. We don&apos;t display unnecessary or cluttered
@@ -165,8 +165,8 @@ export default function Home() {
             We Value Efficiency
           </h3>
           <p className="text-[15px] leading-7 mb-5">
-            Say goodbye to the standard distribution process. With the Audience
-            Economy, you can license your content in just a few hours without
+            Say goodbye to the standard distribution process. With The Rookie
+            Brand, you can license your content in just a few hours without
             worrying about the long approval times other distributors require.
             License your content and see it available in selected stores the
             same day.
@@ -229,7 +229,7 @@ export default function Home() {
               <p>Future of Distribution</p>
               <span>1 day</span>
             </div>
-            Audience Economy
+            The Rookie Brand
             <div className="flex items-center mt-6 gap-3">
               <div className="pl-2 flex flex-col items-center justify-center">
                 <Circle />

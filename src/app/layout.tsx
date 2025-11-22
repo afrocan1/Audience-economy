@@ -12,11 +12,11 @@ import { Navbar } from '../components/navbar'
 import { Footer } from '../components/footer'
 
 export const metadata: Metadata = {
-  title: 'Home | Audience economy',
+  title: 'Home | The Rookie Brand',
   description:
-    'The audience economy facilitates the connection between artists and major digital platforms, offering global distribution and specialized support',
+    'The rookie brand facilitates the connection between artists and major digital platforms, offering global distribution and specialized support',
   keywords: [
-    'Audience economy',
+    'Rookie Brand',
     'Audience economy digital music',
     'music',
     'artist',
